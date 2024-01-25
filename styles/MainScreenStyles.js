@@ -2,9 +2,8 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   mainScreen: {
-    marginVertical: 20,
+    marginVertical: 10,
     flex: 1,
-    backgroundColor: "#ffffff",
     width: "100%",
     height: "100%",
     alignItems: "center",
@@ -13,13 +12,17 @@ export const styles = StyleSheet.create({
   display: {
     elevation: 10,
     width: "95%",
+    height: "10%",
     backgroundColor: "#ffffff",
     borderRadius: 10,
-    marginBottom: 5,
     padding: 10,
+  },
+  darkTheme: {
+    backgroundColor: "#555555",
   },
   displayText: {
     fontSize: 50,
     textAlign: "right",
+    marginBottom: 10,
   },
 });

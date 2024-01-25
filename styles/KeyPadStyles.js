@@ -6,12 +6,13 @@ export const styles = StyleSheet.create({
     width: "100%",
     flex: 3,
     padding: 10,
-    marginBottom: 2,
+    paddingVertical: 20,
   },
   keyPadRow: {
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
+    marginBottom: 10,
     // backgroundColor: "blue",
   },
 });
